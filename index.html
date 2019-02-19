@@ -33,7 +33,7 @@
 	<div class="section-contact fixed">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-8">
+				<div class="col-xs-12 col-sm-6 list">
 					<div class="info">
 						<div class="left">
 								<dl class="info-email">
@@ -52,7 +52,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-4 pull-right">
+				<div class="col-xs-12 col-sm-6 list">
 					<div class="info">
 						<div class="right">
 								<dl class="info-phone">
@@ -80,12 +80,13 @@
 					</a>
 				</div>
 				<nav class="navbar">
-					<ul>
-						<li class="list services"><a href="#">Услуги <i class="fa fa-angle-down"></i></a></li>
-						<li class="list services"><a href="#">Вентиляция <i class="fa fa-angle-down"></i></a></li>
-						<li class="list services"><a href="#">Кондиционирование <i class="fa fa-angle-down"></i></a></li>
-						<li class="list services"><a href="#">О нас</a></li>
-						<li class="list services"><a href="#">Контакты</a></li>
+					<ul class="nav" id="nav">
+						<li class="list services"><a href="#"><span>Услуги</span> <i class="fa fa-angle-down"></i></a></li>
+						<li class="list services"><a href="#"><span>Вентиляция</span> <i class="fa fa-angle-down"></i></a></li>
+						<li class="list services"><a href="#"><span>Кондиционирование</span> <i class="fa fa-angle-down"></i></a></li>
+						<li class="list services"><a href="#"><span>О нас</span></a></li>
+						<li class="list services"><a href="#"><span>Контакты</span></a></li>
+						<li><a href="#" id="menu" class="icon">&#9776;</a></li>
 					</ul>
 				</nav>
 				<div class="navbar-right	">
@@ -93,15 +94,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="carousel slide" id="slideshow" data-ride="carousel" data-interval="5000">
+		<div class="carousel slide" id="slideshow" data-ride="carousel" data-interval="500000">
 	  		<!-- The slideshow -->
-	  		<div class="carousel-inner" style="height: 600px;">
+	  		<div class="carousel-inner">
 				<div class="carousel-item active ventilyaciya">
 					<div class="block" style="background: url(./img/Sistemi-ventilyacii-vozduha-slider.jpg) center top / auto 100% no-repeat;">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-4">
-									<div class="syst-img">
+									<div class="block-img">
 										<img src="./img/Ventilyaciya.png" alt="Системы вентиляции воздуха">
 									</div>
 								</div>
@@ -248,13 +249,13 @@
 	  		</a>
 		</div>
 	</header>
-	<main class="section-main">
-		<div class="section-intro">
-			<h3 class="section-title">
+	<main class="main">
+		<section class="intro">
+			<h3 class="title">
 				<span>Выполним работы</span>
 				<p>Предложите свои заботы по созданию климата на специалистов</p>
 			</h3>
-			<div class="section-info">
+			<div class="info">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-4 item">
@@ -303,8 +304,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="section-description">
+		</section>
+		<section class="description">
 			<div class="container">
 				<span style="color: #666666; font-size: 28pt;">Что такое Вентиляция?</span>
 				<p style="padding: 0 10%; color: #666666; font-size: 14pt;">
@@ -314,10 +315,10 @@
 				</p>
 				<p style="padding: 0 10%; color: #666666; font-size: 14pt;">&nbsp;</p>
 			</div>
-		</div>
-		<h3 class="section-text">
+		</section>
+		<h3 class="text">
 			<span>Польза от Вентиляции</span>
-			<p>
+			<p style="padding: 0 10%; font-size: 14pt;">
 				<a id="poljza" name="poljza"></a>
 				Климатические системы служат для создания определённых условий 
 				<br>

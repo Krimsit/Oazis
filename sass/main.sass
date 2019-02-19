@@ -11,16 +11,13 @@ body
 .section-contact
 	background-color: #039be5
 	color: #fff
-	height: 44px
 	.container
 		max-width: 1160px
 		width: 100%
 		.row
 			margin-left: -20px
     		margin-right: -20px
-			.col-xs-12 .col-sm-8
-				width: 66.66666667%
-			.col-xs-12
+			.list
 				.info
 					position: relative
 					.left
@@ -30,16 +27,12 @@ body
 								display: inline-block
 								margin-bottom: 0
 								margin-top: 0
-								height: 42px
-								line-height: 42px
 								font-size: 14px
 								font-weight: 400
 							dd
 								display: inline-block
 								margin-bottom: 0
 								margin-top: 0
-								height: 42px
-								line-height: 42px
 								font-size: 18px
 								font-weight: 400
 								a
@@ -49,11 +42,11 @@ body
 					.right
 						float: right
 						.info-phone
+							margin: 0
 							dt
 								display: inline-block
 								margin-bottom: 0
 								margin-top: 0
-								height: 42px
 								line-height: 42px
 								font-size: 14px
 								font-weight: 400
@@ -112,11 +105,16 @@ body
 					margin-top: 6px
 					a
 						font-size: 17px
-						padding: 13px 26px 26px 13px
- 						display: block
+						padding: 3px 26px
+						text-align: center
+						display: block
 						text-transform: uppercase
 						color: #cccccc
 						text-decoration: none
+					.icon
+						text-decoration: none
+						color: #fff
+						display: none
 		.navbar-right
 			background-color: grey
 			height: 52px
@@ -134,8 +132,9 @@ body
 		position: relative
 		.carousel-inner
 			position: relative
-    		overflow: hidden
-    		width: 100%
+			overflow: hidden
+			width: 100%
+			height: 600px
 			.ventilyaciya
 				color: #ffffff
 				.block
@@ -348,6 +347,7 @@ body
 			text-align: left
 			width: 100%
 			z-index: 9
+			display: block
 			.indicator
 				background-color: #f4f6f7
 				border-right: 1px solid #dadedf
@@ -367,7 +367,7 @@ body
 				text-indent: 0
 				vertical-align: middle
 				opacity: 1
-				width: 25%
+				width: 18.82%
 				.number
 					background: #ecf0f1
 					border-radius: 50%
@@ -421,6 +421,7 @@ body
 				margin-top: -28px
 		.left
 			float: left
+			margin-left: -78%
 			transition: all .2s ease
 		.left:hover
 			opacity: 1
@@ -454,28 +455,26 @@ body
 					letter-spacing: 1px
 					z-index: 2
 					position: relative
-.section-main
-	.section-intro
+.main
+	.intro
 		padding-top: 104px
 		padding-bottom: 104px
-		.section-title
+		.title
 			font-size: 45px
 			color: #27292e
 			font-weight: 700
 			text-align: center
-			margin: 0 0 26px
 			margin-bottom: 78px
 			span
-				display: block
 				margin-bottom: 13px
+				display: block
 			p
 				color: #96a1a3
 				margin-bottom: 0
 				font-size: 20px
 				font-weight: 300
-		.section-info
+		.info
 			position: relative
-			height: 372px
 			.container
 				max-width: 1160px
 				width: 100%
@@ -487,31 +486,22 @@ body
 						.img-icon
 							display: block
 							margin-bottom: 39px
-							img
-								max-width: 100%
-								vertical-align: middle
-								border: 0
 						h3
 							color: #3d4045
 							margin: 0 0 13px
 							font-size: 20px
 							font-weight: 700
 						p
-							font-weight: 300
-							font-size: 18px
-							b
-								font-weight: 500
-	.section-description
-		background-color: #ecf0f1
+							margin: 0 0 13px
+	.description
 		padding-top: 52px
 		padding-bottom: 52px
+		background-color: #ecf0f1
 		.container
+			text-align: center
 			max-width: 1160px
 			width: 100%
-			text-align: center
-			p
-				 margin-bottom: 0
-	.section-text
+	.text
 		font-size: 45px
 		color: #27292e
 		font-weight: 700
@@ -606,7 +596,7 @@ body
 				margin-left: -20px
 				margin-right: -20px
 				.list
-					width: 33%
+					width: 33.33333333%
 					.item
 						padding: 0
 						.item-title
