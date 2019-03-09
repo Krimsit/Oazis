@@ -5,66 +5,60 @@
         .carousel
             .carousel-inner
                 .ventilyaciya
-                    .block
-                        margin: 0 auto
                         .container
                             top: 30%
-                            .row
-                                margin: 0 auto
-                                .col-sm-4
-                                    .block-img
-                                        text-align: center
-                                        float: none !important
-                                        img
-                                            width: 147px
-                                            height: 147px
-                                .col-sm-8
-                                    .block-header
-                                        font-size: 32px !important
-                                        text-align: center
-                                        h1
-                                            margin-top: 15px
-                                    .block-intro
-                                        display: none
-                                    .block-btn
-                                        text-align: center
-                                        margin-top: 32px
-                                        .btn 
-                                            padding: 15px 47px
-                                            font-size: 14px
+                            display: block
+                            .image
+                               .block-img
+                                    text-align: center
+                                    float: none !important
+                                    img
+                                        width: 147px
+                                        height: 147px
+                            .content
+                                .block-header
+                                    font-size: 32px !important
+                                    text-align: center
+                                    h1
+                                        margin-top: 15px
+                                .block-intro
+                                    display: none
+                                .block-btn
+                                    text-align: center
+                                    margin-top: 32px
+                                    .btn 
+                                        padding: 15px 47px
+                                        font-size: 14px
                 .proect
-                    .block
-                        .container
-                            .block-content
-                                .block-header
-                                    font-size: 22px
-                                .block-intro
-                                    display: none
-                                .block-btn
-                                    margin-top: 104px
-                                    text-align: center
+                    .container
+                        .block-content
+                            .block-header
+                                font-size: 22px
+                            .block-intro
+                                display: none
+                            .block-btn
+                                margin-top: 104px
+                                text-align: center
                 .mont
-                    .block
-                        .container
-                            .block-content
-                                .block-header
-                                    font-size: 22px
-                                .block-intro
-                                    display: none
-                                .block-btn
-                                    margin-top: 104px
-                                    text-align: center
+                    .container
+                        .block-content
+                            .block-header
+                                font-size: 22px
+                            .block-intro
+                                display: none
+                            .block-btn
+                                margin-top: 104px
+                                text-align: center
                 .obs
-                    .block
-                        .container
-                            .block-content
-                                .block-header
-                                    font-size: 22px
-                                .block-intro
-                                    display: none
-                                .block-btn
-                                    margin-top: 104px
-                                    text-align: center
+                    .container
+                        .block-content
+                            .block-header
+                                font-size: 22px
+                            .block-intro
+                                display: none
+                            .block-btn
+                                margin-top: 104px
+                                text-align: center
             .carousel-indicators
                 .indicator
                     padding: 0 0 0 46.63px
@@ -76,40 +70,46 @@
 @media screen and (max-width: 768px)
     .section-contact
         .container
-            .row
-                .list
-                    .info
-                        .left
-                            display: none
-                        .right
-                            width: 100%
+            display: block
+            .email
+                display: none
+            .phone
+                width: 100%
     .section-header
         .bar
+            display: block
             .navbar
                 padding: 0
                 border-bottom: 1px solid #2b2e2e
-                ul
-                    li
-                        a
-                            display: none
-                        .icon
-                            display: block
-                            position: relative
-                .response
-                    position: relative
-                    z-index: 1022
-                    background-color: #27292e
+                line-height: 52px
+                .list
+                    text-align: center
+                    a
+                        display: none
+                div
+                    .icon
+                        text-decoration: none
+                        color: #fff
+                        display: block
+                        position: relative
+                        text-align: center
+            .response
+                display: block
+                position: relative
+                top: 100%
+                z-index: 1022
+                background-color: #27292e
+                width: 100%
+                .list
                     width: 100%
-                    li
-                        width: 100%
-                        a
-                            display: block
-                            float: none
-                            border-bottom: 1px solid #2b2e2e
-                            .fa
-                                float: right
-                        .icon
-                            position: relative
+                    a
+                        display: block
+                        border-bottom: 1px solid #2b2e2e
+                        .fa
+                            float: right
+                div
+                    .icon
+                        position: relative
             .navbar-right
                 display: none
         .carousel
@@ -172,18 +172,17 @@
             .carousel-inner
                 .ventilyaciya
                     height: 720px
-                    .block
+                    margin: 0 auto
+                    .container
+                        top: 10%
                         margin: 0 auto
-                        height: 720px
-                        .container
-                            top: 10%
-                            .row
-                                margin: 0 auto
-                                .col-sm-4
-                                    .block-img
-                                        margin: 0
-                                        text-align: center
-                                        padding: 0
-                                        float: none !important
-                                .col-sm-8
-                                    margin-left: 5%
+                        .content
+                            margin-left: 5%
+    .main
+        .intro
+            .info
+                .container
+                    display: block
+    .section-footer
+        .container
+            display: block
